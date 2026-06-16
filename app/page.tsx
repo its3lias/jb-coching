@@ -4,30 +4,30 @@ import ApplicationForm from "@/components/ApplicationForm";
 const steps = [
   {
     title: "Book your call",
-    body: "Grab a time on the calendar below. Calls run 20–30 minutes — no pressure, no pitch-fest.",
+    body: "Grab a time on the calendar below. Calls run 20 to 30 minutes with no pressure and no pitch fest.",
   },
   {
     title: "Tell us about you",
     body: "Fill out the short application so Jordan walks in already knowing your goals and schedule.",
   },
   {
-    title: "Get your 90-day plan",
-    body: "Leave with a clear path to drop 15 lbs around your real life — whether we work together or not.",
+    title: "Get your 90 day plan",
+    body: "Leave with a clear path to drop 15 lbs around your real life, whether we work together or not.",
   },
 ];
 
 const deliverables = [
   {
     title: "JB Coaching software",
-    body: "Your whole plan in one dashboard — training, nutrition, and progress in your pocket.",
+    body: "Your whole plan in one dashboard with training, nutrition, and progress in your pocket.",
   },
   {
     title: "Custom training & meal plan",
-    body: "Built around your schedule and the food you actually like. No 5am gym marathons, no rabbit-food diets.",
+    body: "Built around your schedule and the food you actually like. No 5am gym marathons, no rabbit food diets.",
   },
   {
-    title: "Weekly guidance & check-ins",
-    body: "Jordan reviews your week and adjusts the plan so you keep losing — even on the busy weeks.",
+    title: "Weekly guidance & check ins",
+    body: "Jordan reviews your week and adjusts the plan so you keep losing, even on the busy weeks.",
   },
   {
     title: "Macro tracker & workout creator",
@@ -44,7 +44,7 @@ const deliverables = [
 ];
 
 const pains = [
-  "You were in shape once — then work and life took over.",
+  "You were in shape once, then work and life took over.",
   "You start strong, then it’s always “next week” again.",
   "One clean week, then back to takeout and junk by Friday.",
   "You’re tired, groggy, and not confident in your own clothes.",
@@ -62,12 +62,12 @@ export default function Page() {
           </span>
 
           <h1 className="mt-6 text-balance text-4xl font-extrabold leading-[1.05] tracking-tight text-white sm:text-6xl">
-            Lose <span className="text-accent">15 lbs in 90 days</span> —
-            without living in the gym
+            Lose <span className="text-accent">15 lbs in 90 days</span> without
+            living in the gym
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg text-white/65 sm:text-xl">
-            For busy men who work 60-hour weeks: drop the weight without
+            For busy men who work 60 hour weeks: drop the weight without
             sacrificing your career, your family time, or eating a strict diet.
             And if you don&apos;t? Jordan keeps coaching you{" "}
             <span className="font-semibold text-white">for free</span> until you
@@ -90,7 +90,7 @@ export default function Page() {
           </div>
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm text-white/45">
-            <span>★★★★★ Built for 60-hour work weeks</span>
+            <span>★★★★★ Built for 60 hour work weeks</span>
             <span className="hidden sm:inline">•</span>
             <span>No strict diets</span>
             <span className="hidden sm:inline">•</span>
@@ -114,7 +114,7 @@ export default function Page() {
             ))}
           </ul>
           <p className="mx-auto mt-7 max-w-2xl text-center text-white/60">
-            You don&apos;t need more willpower — you need a plan built around the
+            You don&apos;t need more willpower. You need a plan built around the
             life you actually have. That&apos;s exactly what Jordan does.
           </p>
         </div>
@@ -143,7 +143,7 @@ export default function Page() {
         <div className="mx-auto max-w-4xl">
           <div className="mb-8 text-center">
             <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-              Step 1 — Book your call
+              Step 1: Book your call
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-white/60">
               Choose a time below. You&apos;ll get an instant confirmation and a
@@ -159,7 +159,7 @@ export default function Page() {
         <div className="mx-auto max-w-2xl">
           <div className="mb-8 text-center">
             <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-              Step 2 — Apply for coaching
+              Step 2: Apply for coaching
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-white/60">
               Takes 2 minutes. The more Jordan knows before the call, the more
@@ -178,7 +178,7 @@ export default function Page() {
               What&apos;s inside the program
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-white/60">
-              Everything you need to lose 15 lbs in 90 days — built for a busy
+              Everything you need to lose 15 lbs in 90 days, built for a busy
               schedule.
             </p>
           </div>
@@ -203,7 +203,7 @@ export default function Page() {
             The guarantee
           </span>
           <h2 className="mt-5 text-2xl font-extrabold text-white sm:text-3xl">
-            Lose 15 lbs in 90 days — or Jordan coaches you free until you do
+            Lose 15 lbs in 90 days or Jordan coaches you free until you do
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-white/65">
             Show up and do the work and the result is guaranteed. To qualify,
@@ -212,7 +212,7 @@ export default function Page() {
           <ul className="mx-auto mt-5 grid max-w-md gap-2 text-left text-sm text-white/75">
             <li className="flex items-start gap-2">
               <span className="text-accent">✓</span> Submit 90% of your weekly
-              check-ins
+              check ins
             </li>
             <li className="flex items-start gap-2">
               <span className="text-accent">✓</span> Stay consistent and log 90%

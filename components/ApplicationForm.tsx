@@ -23,13 +23,13 @@ const goals = [
 
 const scheduleOptions = [
   "Under 40 hrs/week",
-  "40–60 hrs/week",
+  "40 to 60 hrs/week",
   "60+ hrs/week",
 ];
 
 const investmentOptions = [
-  "Yes — ready to invest in myself now ($1,500–$2,500)",
-  "Maybe — depends on the plan",
+  "Yes, ready to invest in myself now ($1,500 to $2,500)",
+  "Maybe, depends on the plan",
   "Just looking for free info right now",
 ];
 
@@ -121,7 +121,7 @@ export default function ApplicationForm() {
           {...inputProps}
           name="current_situation"
           rows={3}
-          placeholder="e.g. 210 lbs, want to get to ~190, busy 9–5, haven't trained consistently in a while…"
+          placeholder="e.g. 210 lbs, want to get to ~190, busy 9 to 5, haven't trained consistently in a while…"
         />
       </Field>
 
@@ -130,7 +130,7 @@ export default function ApplicationForm() {
           {...inputProps}
           name="challenge"
           rows={3}
-          placeholder="Be honest — work-life balance, consistency, diet, energy… this helps Jordan build the right plan."
+          placeholder="Be honest. Work life balance, consistency, diet, energy… this helps Jordan build the right plan."
         />
       </Field>
 
