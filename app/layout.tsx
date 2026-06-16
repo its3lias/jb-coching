@@ -5,9 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "Book Your Call | Coaching with Jordan",
+  title: "Lose 15 lbs in 90 Days | JB Coaching with Jordan",
   description:
-    "Apply for a free strategy call with Jordan and build the body and habits you've been chasing for years.",
+    "For busy men: lose 15 lbs in 90 days without living in the gym, sacrificing work-life balance, or eating a strict diet — or Jordan works with you for free until you do. Book your free call.",
 };
 
 export default function RootLayout({

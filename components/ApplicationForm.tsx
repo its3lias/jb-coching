@@ -14,15 +14,21 @@ import { useState } from "react";
 const WEBHOOK_URL = process.env.NEXT_PUBLIC_GHL_FORM_WEBHOOK || "/api/apply";
 
 const goals = [
-  "Lose fat / get lean",
-  "Build muscle",
-  "Get stronger",
-  "Improve energy & habits",
-  "Compete / athletic performance",
+  "Lose 15+ lbs",
+  "Lose 30+ lbs",
+  "Lose weight & build muscle",
+  "Get my energy & confidence back",
+  "Get back in shape after years off",
+];
+
+const scheduleOptions = [
+  "Under 40 hrs/week",
+  "40–60 hrs/week",
+  "60+ hrs/week",
 ];
 
 const investmentOptions = [
-  "Yes — ready to invest in myself now",
+  "Yes — ready to invest in myself now ($1,500–$2,500)",
   "Maybe — depends on the plan",
   "Just looking for free info right now",
 ];
@@ -97,21 +103,34 @@ export default function ApplicationForm() {
         </Field>
       </div>
 
-      <Field label="Where are you right now? (current weight, training, etc.)" name="current_situation">
+      <Field label="How many hours a week do you typically work?" name="work_hours" required>
+        <select {...inputProps} name="work_hours" defaultValue="" required>
+          <option value="" disabled>
+            Select one…
+          </option>
+          {scheduleOptions.map((o) => (
+            <option key={o} value={o}>
+              {o}
+            </option>
+          ))}
+        </select>
+      </Field>
+
+      <Field label="Where are you right now? (current weight, goal weight, how you train today)" name="current_situation">
         <textarea
           {...inputProps}
           name="current_situation"
           rows={3}
-          placeholder="Tell Jordan a bit about your starting point…"
+          placeholder="e.g. 210 lbs, want to get to ~190, busy 9–5, haven't trained consistently in a while…"
         />
       </Field>
 
-      <Field label="What's your biggest challenge or what's stopped you before?" name="challenge">
+      <Field label="What's stopped you from losing the weight before?" name="challenge">
         <textarea
           {...inputProps}
           name="challenge"
           rows={3}
-          placeholder="Be honest — this helps us build the right plan."
+          placeholder="Be honest — work-life balance, consistency, diet, energy… this helps Jordan build the right plan."
         />
       </Field>
 
