@@ -150,7 +150,7 @@ export default function ApplicationForm() {
       <button
         type="submit"
         disabled={status === "submitting"}
-        className="w-full rounded-xl bg-accent px-6 py-4 text-base font-bold text-ink transition hover:bg-accent-dim disabled:cursor-not-allowed disabled:opacity-60"
+        className="w-full rounded-xl bg-accent px-6 py-4 text-base font-bold text-white transition hover:bg-accent-dim disabled:cursor-not-allowed disabled:opacity-60"
       >
         {status === "submitting" ? "Submitting…" : "Submit my application →"}
       </button>

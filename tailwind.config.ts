@@ -10,8 +10,8 @@ const config: Config = {
       colors: {
         ink: "#0a0a0a",
         surface: "#111315",
-        accent: "#c8ff00",
-        "accent-dim": "#a6d400",
+        accent: "#a855f7",
+        "accent-dim": "#9333ea",
       },
       fontFamily: {
         sans: ["var(--font-sans)", "system-ui", "sans-serif"],

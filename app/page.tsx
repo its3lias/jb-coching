@@ -76,7 +76,7 @@ export default function Page() {
           <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
               href="#book"
-              className="w-full rounded-xl bg-accent px-7 py-4 text-base font-bold text-ink transition hover:bg-accent-dim sm:w-auto"
+              className="w-full rounded-xl bg-accent px-7 py-4 text-base font-bold text-white transition hover:bg-accent-dim sm:w-auto"
             >
               Book your free call →
             </a>
@@ -202,7 +202,7 @@ export default function Page() {
           </ul>
           <a
             href="#book"
-            className="mt-8 inline-block rounded-xl bg-accent px-7 py-4 text-base font-bold text-ink transition hover:bg-accent-dim"
+            className="mt-8 inline-block rounded-xl bg-accent px-7 py-4 text-base font-bold text-white transition hover:bg-accent-dim"
           >
             Book your free call →
           </a>
