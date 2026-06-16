@@ -1,5 +1,4 @@
 import BookingEmbed from "@/components/BookingEmbed";
-import ApplicationForm from "@/components/ApplicationForm";
 
 const steps = [
   {
@@ -7,8 +6,8 @@ const steps = [
     body: "Grab a time on the calendar below. Calls run 20 to 30 minutes with no pressure and no pitch fest.",
   },
   {
-    title: "Tell us about you",
-    body: "Fill out the short application so Jordan walks in already knowing your goals and schedule.",
+    title: "Talk it through",
+    body: "Jordan learns your goals, your schedule, and what's gotten in the way before, then maps it out.",
   },
   {
     title: "Get your 90 day plan",
@@ -81,12 +80,6 @@ export default function Page() {
             >
               Book your free call →
             </a>
-            <a
-              href="#apply"
-              className="w-full rounded-xl border border-white/15 px-7 py-4 text-base font-semibold text-white transition hover:border-white/40 sm:w-auto"
-            >
-              Apply now
-            </a>
           </div>
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm text-white/45">
@@ -143,7 +136,7 @@ export default function Page() {
         <div className="mx-auto max-w-4xl">
           <div className="mb-8 text-center">
             <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-              Step 1: Book your call
+              Book your call
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-white/60">
               Choose a time below. You&apos;ll get an instant confirmation and a
@@ -151,22 +144,6 @@ export default function Page() {
             </p>
           </div>
           <BookingEmbed />
-        </div>
-      </section>
-
-      {/* ------------------------------------------------------------ APPLICATION */}
-      <section id="apply" className="scroll-mt-20 px-6 py-16">
-        <div className="mx-auto max-w-2xl">
-          <div className="mb-8 text-center">
-            <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-              Step 2: Apply for coaching
-            </h2>
-            <p className="mx-auto mt-3 max-w-xl text-white/60">
-              Takes 2 minutes. The more Jordan knows before the call, the more
-              value you&apos;ll get out of it.
-            </p>
-          </div>
-          <ApplicationForm />
         </div>
       </section>
 
